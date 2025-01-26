@@ -4,17 +4,15 @@ const createTransporter = () => {
   return nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "ubaidullahshahid098@gmail.com",
-      pass: "aqcefegivqmsrayb",
+      user: "junaidhunani890@gmail.com",
+      pass: "kgns hjyl xumr zexs",
     },
   });
 };
 
-// VNhqswlhWjCF2wJrvxtVnmVu vercel token hw ye
-
 const sendEmail = async (to, subject, html) => {
   const mailOptions = {
-    from: `Saylani <ubaidullahshahid098@gmail.com>`,
+    from: `Quick Token <junaidhunani890@gmail.com>`,
     to,
     subject,
     html,
